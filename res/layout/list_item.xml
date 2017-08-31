@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="10dp" >
+
+    <!-- Name Label -->
+
+    <TextView
+        android:id="@+id/txtTeamName"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="0dp"
+        android:text="Nombre: "
+        android:textColor="#43bd00"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Email label -->
+
+    <TextView
+        android:id="@+id/txtTeamTag"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:text="Tag: "
+        android:textColor="#acacac" />
+
+    <!-- Mobile number label -->
+    <TextView
+        android:id="@+id/txtTeamLastGameDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Ultima partida: "
+        android:textColor="#5d5d5d"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp" />
+
+</LinearLayout>
